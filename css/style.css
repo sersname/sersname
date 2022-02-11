@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  .wrapper{
+      list-style: none;
+      max-width: 842px;
+      margin: 0 auto;
+      margin-top: 36px;
+  }
+body{
+    background-color: #e8e8e8;
+}
+  .elonlar li:first-child{
+font-family: Arial;
+color: #273d46;
+font-size: 20px;
+margin-bottom: 15px;
+background: url(../img/ptichka\ kok.png)left no-repeat;
+padding-left: 35px;
+text-decoration: line-through;
+}
+.elonlar li:nth-child(2){
+    font-family: Arial;
+color: #273d46;
+font-size: 20px;
+margin-bottom: 15px;
+background: url(../img/ptichka\ kok.png)left no-repeat;
+padding-left: 35px;
+font-weight: bold;
+}
+.elonlar li:nth-child(3){
+    font-family: Arial;
+color: #273d46;
+font-size: 20px;
+margin-bottom: 15px;
+background: url(../img/ptichka\ kok.png)left no-repeat;
+padding-left: 35px;
+font-style: italic;
+}
+.elonlar li:nth-child(4){
+    font-family: Arial;
+color: #273d46;
+font-size: 20px;
+margin-bottom: 15px;
+background: url(../img/ptichka\ kok.png)left no-repeat;
+padding-left: 35px;
+text-transform: uppercase;
+}
+.elonlar li:hover{
+    color: #d55a5a;
+    background: url(../img/qirmizi\ p.png)left no-repeat;
+    padding-left: 35px;
+}
+.elonlar2 li:first-child{
+    font-family: Arial;
+    color: #273d46;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background: url(../img/ptichka\ kok.png)left no-repeat;
+    padding-left: 35px; 
+}
+.elonlar2 li:nth-child(2){
+    font-family: Arial;
+    color: #273d46;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background: url(../img/ptichka\ kok.png)left no-repeat;
+    padding-left: 35px; 
+
+}
+.elonlar2 li:nth-child(3){
+    font-family: Arial;
+    color: #273d46;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background: url(../img/ptichka\ kok.png)left no-repeat;
+    padding-left: 35px;
+}
+.elonlar2 li:nth-child(4){
+    font-family: Arial;
+    color: #273d46;
+    font-size: 20px;
+    margin-bottom: 15px;
+    background: url(../img/ptichka\ kok.png)left no-repeat;
+    padding-left: 35px;
+}
+.elonlar2 li:hover{
+    color: #d55a5a;
+    background: url(../img/qirmizi\ p.png)left no-repeat;
+    padding-left: 35px;
+}
+a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #80b7b3 url(../img/Shape.png) 86% center no-repeat;
+    border-radius: 30px;
+    padding: 17px 30px;
+    padding-right: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+    box-shadow: 6px 0px 40px rgb(128 183 179 / 54%);
+}
+a:hover{
+    background-color: #273d46;
+}
+a:active{
+    background-color: #818181;
+    box-shadow: none;
+}
+.birinchi {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    max-width: 768px;
+}
+.birinchi::first-line{
+    color: #ff0000;
+}
+.ikkinchi {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 768px;
+    line-height: 1.7;
+}
+.ikkinchi::first-letter{
+    font-size: 25px;
+    color: #ff0000;
+}
